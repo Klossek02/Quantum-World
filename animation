@@ -65,6 +65,6 @@ for ti = 1:length(t) % calculating wave packets at time t(ti)
     pause(0.2);
 
     if ti < length(t) % if the current frame is not the last frame
-        clf; % clear the figure for the next frame
+        clf; % clearing the figure for the next frame
     end
 end
